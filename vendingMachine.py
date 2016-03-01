@@ -13,4 +13,3 @@ def give_change(amount):
     return 'You are owed ' + str(change.count(200)) + 'x 200 piece coins and ' + str(change.count(100)) + 'x 100 piece coins and ' + str(change.count(50)) + 'x 50 piece coins and ' + str(change.count(20)) + 'x 20 piece coins and '  + str(change.count(10)) + 'x 10 piece coins and '  + str(change.count(5)) + 'x 5 piece coins and ' + str(change.count(2)) + 'x 2 piece coins and ' + str(change.count(1)) + 'x 1 piece coins'
 
 print give_change(103)
-# ;lsdjkfajhsdfjkahsdjfkhasdjkfhaksj
