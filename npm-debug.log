@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'grunt-git',
+1 verbose cli   'grunt-remote',
+1 verbose cli   'grunt-add',
+1 verbose cli   'grunt-origin',
+1 verbose cli   'grunt-https://github.com/ShaneDavison/Python-V' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.1
+4 verbose install initial load of /Users/Shano/Documents/Code_Institute/unitTesting/package.json
+5 verbose readDependencies loading dependencies from /Users/Shano/Documents/Code_Institute/unitTesting/package.json
+6 silly cache add args [ 'grunt-git', null ]
+7 verbose cache add spec grunt-git
+8 silly cache add args [ 'grunt-remote', null ]
+9 verbose cache add spec grunt-remote
+10 silly cache add args [ 'grunt-add', null ]
+11 verbose cache add spec grunt-add
+12 silly cache add args [ 'grunt-origin', null ]
+13 verbose cache add spec grunt-origin
+14 verbose stack Error: Unsupported URL Type: grunt-https://github.com/ShaneDavison/Python-V
+14 verbose stack     at parseUrl (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:169:13)
+14 verbose stack     at npa (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:75:12)
+14 verbose stack     at resolver (/usr/local/lib/node_modules/npm/lib/install.js:845:42)
+14 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+14 verbose stack     at Array.forEach (native)
+14 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+14 verbose stack     at Array.forEach (native)
+14 verbose stack     at asyncMap (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+14 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:703:5
+14 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:325:20
+15 verbose cwd /Users/Shano/Documents/Code_Institute/unitTesting
+16 error Darwin 15.3.0
+17 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save-dev" "grunt-git" "grunt-remote" "grunt-add" "grunt-origin" "grunt-https://github.com/ShaneDavison/Python-V"
+18 error node v4.3.1
+19 error npm  v2.14.12
+20 error Unsupported URL Type: grunt-https://github.com/ShaneDavison/Python-V
+21 error If you need help, you may report this error at:
+21 error     <https://github.com/npm/npm/issues>
+22 verbose exit [ 1, true ]
